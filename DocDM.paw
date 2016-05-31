@@ -848,10 +848,10 @@ The following Paw environment variables are used in the request URL:
 	{Header Document-Id} to identify the Document
 
 Note: The Document-Id header is not used by the Caché DocDM API. It's just as a convenient way to enter the document id in Paw.</attribute>
-        <attribute name="name" type="string">Get a document from a collection Duplicate</attribute>
+        <attribute name="name" type="string">Get a document from a collection</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z133"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z200 z191 z192 z189 z188"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z192 z200 z191 z189 z188"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z191">
         <attribute name="value" type="string">application/json</attribute>
@@ -893,10 +893,10 @@ The following Paw environment variables are used in the request URL:
 Note: The Document-Id header is not used by the Caché DocDM API.
  
 </attribute>
-        <attribute name="name" type="string">Delete a document from a collection Duplicate</attribute>
+        <attribute name="name" type="string">Delete a document from a collection</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z140"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z198 z196 z194 z195 z199"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z194 z196 z195 z198 z199"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z194">
         <attribute name="value" type="string">application/json</attribute>
@@ -1041,10 +1041,10 @@ The following Paw environment variables are used in the request URL:
 	{Parsed Insert Response} to identify the Document
  
 The updated document is defined as a JSON object in the request body.</attribute>
-        <attribute name="name" type="string">Update last inserted document in a collection Duplicate</attribute>
+        <attribute name="name" type="string">Update last inserted document in a collection</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z140"></relationship>
         <relationship name="children" type="0/0" destination="LMREQUESTTREEITEM"></relationship>
-        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z209 z207 z208 z210"></relationship>
+        <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z208 z207 z210 z209"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z207">
         <attribute name="value" type="string">application/json</attribute>
