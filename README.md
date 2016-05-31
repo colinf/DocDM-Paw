@@ -19,8 +19,8 @@ There are three environments defined in the Paw file which you can change, or co
 ## APIs
 The API examples included in the Paw file are listed below. In all cases the default values from the Server environment above are used in this README.
 
-- [All collections for a database](#All collections for a database)
-- [All documents for a collection](#All documents for a collection)
+- [All collections for a database](#all-collections-for-a-database)
+- [All documents for a collection](#all-documents-for-a-collection)
 
 #### All collections for a database
     GET http://localhost:57772/api/document/v1/{Database name}
